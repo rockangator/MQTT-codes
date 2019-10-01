@@ -14,4 +14,3 @@ def on_connect(client, userdata, flags, rc):
 client.on_connect = on_connect
 client.connect(mqtt_broker_ip, 1883)
 client.publish("test","ambujee")
-
