@@ -1,0 +1,3 @@
+mosquitto_pub -d -t test -u username -P qwertyuiop -m 1mm
+
+mosquitto_sub -d -u username -P qwertyuiop -t test
